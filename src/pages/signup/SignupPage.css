@@ -1,0 +1,22 @@
+.signup-form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.signup-form .auth-form {
+  width: 360px;
+  padding: 40px 25px;
+  border: 1px solid #ddd;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.15);
+  background: #fff;
+}
+.signup-form .auth-form > p {
+  margin-top: 1rem;
+}
+.signup-form .auth-form > p a {
+  color: var(--primary-color);
+}
+.signup-form .auth-form > p a:hover {
+  text-decoration: underline;
+}

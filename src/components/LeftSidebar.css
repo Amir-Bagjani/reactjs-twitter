@@ -1,0 +1,64 @@
+.left-sidebar {
+  width: 100%;
+  padding: 0.8rem 1rem 2.5rem 1rem;
+  background-color: white;
+  height: 100vh;
+  position: sticky;
+  top: 0;
+  overflow-y: auto;
+  box-shadow: -3px -3px 3px rgba(0, 0, 0, 0.134);
+}
+.left-sidebar .backDrop{
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.044);
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+}
+.left-sidebar .menu-section{
+  position: absolute;
+  right: 15px;
+  top: 25px;
+  z-index: 50;
+}
+.leftbarTop{
+  display: flex;
+  align-items: center;
+}
+.left-sidebar .user {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+  margin-right: auto;
+}
+.left-sidebar .user p {
+  margin-left: 0.5rem;
+  font-weight: bold;
+}
+.left-sidebar .best-reporters {
+  background-color: rgba(107, 146, 230, 0.1);
+  border-radius: 2rem;
+  padding: 1rem 0;
+}
+.left-sidebar .best-reporters > p {
+  text-align: center;
+  font-weight: bold;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.158);
+  padding-bottom: 0.5rem;
+}
+.left-sidebar .best-reporters ul li a{
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 0.5rem 0.5rem 0.8rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.158);
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+.left-sidebar .best-reporters ul li:hover {
+  background-color: rgba(0, 0, 0, 0.078);
+}
+.left-sidebar .best-reporters ul li:last-child a {
+  border-bottom: unset;
+  padding-bottom: 0;
+}

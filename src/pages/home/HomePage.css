@@ -1,0 +1,41 @@
+.home-page {
+  width: 100%;
+}
+/* twitte*/
+.home-page .twitte {
+  padding: 1.5rem 1rem;
+  background-color: white;
+  margin-bottom: 6px;
+}
+.home-page .twitte .uper {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 0.5rem;
+}
+.home-page .twitte .uper .tweet-image {
+  width: 100%;
+  text-align: center;
+}
+.home-page .twitte .uper .remove-image {
+  color: #d32f2f;
+  background: #fbe9e7;
+  border: 1px solid var(--highlight-color);
+  padding: 0.4rem 0.5rem;
+  text-align: center;
+  margin: 0.5rem 0;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.home-page .twitte .btns {
+  display: flex;
+  align-items: center;
+}
+.home-page .twitte .btns button {
+  margin-right: 1rem;
+}
+.home-page .twitte .btns img {
+  border: 1px solid rgba(0, 0, 0, 0.305);
+  padding: 0.4rem;
+  border-radius: 50%;
+  cursor: pointer;
+}

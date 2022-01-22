@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+  box-sizing: border-box;
+  letter-spacing: 0.2px;
+  line-height: 1rem;
+  
+}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+  color:unset;
+}
+:root{
+  --heading-color: #476282;
+  --text-color: #9b9c9a;
+  --primary-color: #00acee;
+  --highlight-color: #d13264;
+  --bg-color: #ECEFF1;
+}
+body{
+  font-family: "Vazir", Poppins, sans-serif;	
+  font-size: 1.1em;
+  background-color: var(--bg-color);
+}
+body {
+	line-height: 1;
+}
+ul, ol, li{
+  list-style-type: none;
+}
+/* h1{ font-size: 2.5rem;}*/
+h2{ font-size: 2rem;}
+/* h3{ font-size: 1.5rem;}*/
+input{
+  font-family: "Vazir", Poppins, sans-serif;
+  border: 1px solid rgba(0, 0, 0, 0.353);
+  border-radius: 4px;
+  outline: none;
+  color: #777;
+  padding: 8px 10px;
+  width: 100%;
+  font-size: 1rem;
+}  
+ textarea{
+  font-family: "Vazir", Poppins, sans-serif;
+  min-height: 101px;
+  resize: none;
+  outline: none;
+  color: #777;
+  padding: 8px 12px;
+  width: 100%;
+  font-size: 1rem;
+  border: none;
+}
+textarea:focus{
+  outline: 1px solid rgba(211, 211, 211, 0.666);
+}
+label {
+  display: block;
+  margin: 24px auto;
+}
+label span {
+  display: block;
+  margin-bottom: 6px;
+}
+/*select{
+  border: 1px solid rgba(0, 0, 0, 0.153);
+  border-radius: 4px;
+  outline: none;
+  color: #777;
+  padding: 8px 6px;
+  width: 100%;
+  font-size: 1rem;
+  margin: 0 auto 24px auto;
+} */
+/* .error{
+  color: #D32F2F;
+  background: #FBE9E7;
+  border: 1px solid var(--highlight-color);
+  padding: 0.5rem;
+  text-align: center;
+  margin: 0.5rem 0;
+  border-radius: 4px;
+} */
+/* .page-title{
+  font-size: 1.4rem;font-weight: 500;
+  color: var(--heading-color);
+  display: inline-block;
+} */
+.btn{
+  font-family: "Vazir", Poppins, sans-serif;
+  background-color: var(--primary-color);
+  padding: 6px 30px;
+  border-radius: 25px;
+  color: #fff;
+  letter-spacing: 1px;
+  border: 2px solid var(--primary-color);
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.btn:hover{
+filter: brightness(0.86);
+}
+/* ::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+::-webkit-scrollbar-thumb {
+  background: var(--primary-color); 
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+} */
+::-webkit-scrollbar {
+  display: none;
+}
+.Toastify div{
+  font-family: "Vazir", Poppins, sans-serif;
+}

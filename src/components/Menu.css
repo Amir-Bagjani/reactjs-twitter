@@ -1,0 +1,27 @@
+.menu{
+    background-color: white;
+    width:160px ;
+    border-radius: 10px;
+    text-align: center;
+}
+.menu ul{
+    border: 1px solid rgba(128, 128, 128, 0.425);
+    box-shadow: 0 0 13px rgba(128, 128, 128, 0.692);
+    border-radius: 10px;
+    color: var(--heading-color);
+}
+.menu ul li{
+    padding: 0.4rem 1rem;
+    border-bottom: 1px solid lightgray;
+    cursor: pointer;
+}
+.menu ul li:first-child{
+    border-radius: 10px 10px 0 0;
+}
+.menu ul li:last-child{
+    border-bottom:none;
+    border-radius: 0 0 10px 10px;
+}
+.menu ul li:hover{
+    background-color: rgba(128, 128, 128, 0.322);
+}

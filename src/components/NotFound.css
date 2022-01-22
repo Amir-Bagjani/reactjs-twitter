@@ -1,0 +1,18 @@
+.not-found {
+  background-color: white;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.not-found > div {
+  text-align: center; 
+}
+.not-found > div > img {
+  width: 80%;
+  margin-top: 2rem;
+}
+.not-found > div a{
+  text-decoration: underline;
+  color: var(--primary-color);
+}

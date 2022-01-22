@@ -1,0 +1,45 @@
+.right-sidebar {
+  width: 100%;
+  padding: 0.5rem 1.2rem;
+  background-color: white;
+  height: 100vh; 
+  position: sticky;
+  top: 0;
+  overflow-y: auto;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.134);
+}
+@media screen and (max-width: 992px) {
+  .right-sidebar {
+    height: 300px ; 
+    padding-bottom: 1rem;
+  }
+}
+.right-sidebar .logo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2.2rem;
+}
+.right-sidebar .logo h1 {
+  color: var(--primary-color);
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-left: 0.5rem;
+}
+.right-sidebar .hashtags ul {
+  margin-top: 1rem;
+}
+.right-sidebar .hashtags ul a{
+  color: black;
+}
+.right-sidebar .hashtags li a {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 0.4rem 0;
+}
+.right-sidebar .hashtags li:hover {
+  background-color: rgba(0, 0, 0, 0.078);
+}
+.right-sidebar .hashtags li img {
+  margin-right: 0.3rem;
+}
